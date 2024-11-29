@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main(void) {
+  float A,B,C,D;
+
+  printf("Digite o valor de A:\n");
+  scanf("%f", &A);
+  printf("Digite o valor de B:\n");
+  scanf("%f", &B);
+  printf("Digite o valor de C:\n");
+  scanf("%f", &C);
+  D = (A + B + C) /3;
+  printf("A média é: %f\n", D);
+  return 0;
+}
